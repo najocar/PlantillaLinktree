@@ -1,8 +1,6 @@
 body {
     scroll-behavior: smooth;
     margin: 0;
-    /*background-color: rgb(1, 2, 8);*/
-    background-color: rgb(8, 11, 27);
     background-color: rgb(2, 5, 15);
 }
 
@@ -28,12 +26,6 @@ body {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background: rgb(74, 74, 74);
-}
-
-#pantalla{
-    background-color: rgb(8, 11, 27);
-    top: 0%;
-    z-index: 9999;
 }
 
 #encabezado {
@@ -81,5 +73,10 @@ a:hover{
     .content {
         padding: 20px;
         padding-bottom: 30px;
+    }
+
+    #myVideo {
+        width: 100%;
+        min-height: 150%;
     }
   }
